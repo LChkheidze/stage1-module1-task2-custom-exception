@@ -11,7 +11,7 @@ public class StudentManager {
         return Student.getValueOf(studentID);
       }
     }
-    throw new StudentNotFoundException("Could not find student with ID {" + studentID + "}");
+    throw new StudentNotFoundException("Could not find student with ID " + studentID);
   }
 
   public static void main(String[] args) {
